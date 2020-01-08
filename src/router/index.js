@@ -1,9 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
 Vue.use(VueRouter)
 // 配置路由
-const routes = []
+const routes = [
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/lonin')
+  }
+]
 const router = new VueRouter({
   routes
 })
