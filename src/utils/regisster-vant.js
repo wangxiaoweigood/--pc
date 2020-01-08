@@ -1,11 +1,6 @@
 import Vue from 'vue'
 import {
-  Popup,
-  Button,
-  Cell,
-  CellGroup
+  Popup
+
 } from 'vant'
 Vue.use(Popup)
-  .use(Button)
-  .use(Cell)
-  .use(CellGroup)
