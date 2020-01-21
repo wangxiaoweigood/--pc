@@ -4,7 +4,9 @@ import {
   NavBar,
   Field,
   Button,
-  CellGroup
+  CellGroup,
+  Toast,
+  CountDown
 
 } from 'vant'
 Vue.use(Popup)
@@ -12,3 +14,5 @@ Vue.use(Popup)
   .use(Field)
   .use(Button)
   .use(CellGroup)
+  .use(Toast)
+  .use(CountDown)
